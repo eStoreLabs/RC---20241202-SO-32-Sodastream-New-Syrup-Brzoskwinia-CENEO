@@ -179,7 +179,7 @@
 #es-rc-content.es-rc .es-possibilities__title--second {
   position: absolute;
   top: 44%;
-  left: 0;
+  left: -10px;
   color: #e8e2d4;
 }
 #es-rc-content.es-rc .es-possibilities__title-container {
@@ -549,6 +549,11 @@
 #es-rc-content.es-rc .es-photo__text {
   font-size: 23px;
 }
+@media screen and (min-width: 400px) {
+  #es-rc-content.es-rc .es-possibilities__title-container {
+    top: -45px;
+  }
+}
 @media screen and (min-width: 500px) {
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content {
     font-size: 16px;
@@ -599,7 +604,7 @@
     margin-bottom: 30px;
   }
   #es-rc-content.es-rc .es-possibilities__title-container {
-    top: -25px;
+    top: -15px;
   }
   #es-rc-content.es-rc .es-lemonade__image-group-text {
     top: 45%;
@@ -677,6 +682,9 @@
   }
   #es-rc-content.es-rc .es-possibilities__title--first, #es-rc-content.es-rc .es-possibilities__title--second {
     font-size: 35px;
+  }
+  #es-rc-content.es-rc .es-possibilities__title--second {
+    left: 0;
   }
   #es-rc-content.es-rc .es-info__container {
     display: flex;
@@ -823,7 +831,7 @@
   }
   #es-rc-content.es-rc .es-lemonade__texts {
     max-width: 50%;
-    padding-left: 10%;
+    padding-left: 2%;
   }
   #es-rc-content.es-rc .es-lemonade__text {
     max-width: 46%;
@@ -835,16 +843,18 @@
     max-width: 76%;
   }
   #es-rc-content.es-rc .es-lemonade__title {
+    margin-left: 7%;
     font-size: 70px;
     text-align: left;
   }
   #es-rc-content.es-rc .es-lemonade__subtitle {
     font-size: 40px;
+    padding-left: 30px;
   }
   #es-rc-content.es-rc .es-lemonade__title-image {
     max-width: 15%;
     top: 7%;
-    right: 30%;
+    right: 20%;
   }
 }
 @media screen and (min-width: 825px) {
@@ -962,9 +972,6 @@
     font-size: 22px;
     top: 43%;
   }
-  #es-rc-content.es-rc .es-recipes__day-night-label {
-    font-size: 132px;
-  }
   #es-rc-content.es-rc .es-recipes__day-night-label--first {
     top: 10.4%;
     left: 52%;
@@ -1033,7 +1040,7 @@
     margin-top: -100px;
   }
   #es-rc-content.es-rc .es-triple__desc-mobile--first, #es-rc-content.es-rc .es-triple__desc-mobile--second, #es-rc-content.es-rc .es-triple__desc-mobile--third {
-    font-size: 170px;
+    font-size: 160px;
   }
   #es-rc-content.es-rc .es-triple__desc-mobile--first {
     top: 12%;
@@ -1110,6 +1117,9 @@
   #es-rc-content.es-rc .es-possibilities__title-container {
     top: 50px;
   }
+  #es-rc-content.es-rc .es-recipes__day-night-label {
+    font-size: 132px;
+  }
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content {
     font-size: 24px;
   }
@@ -1144,6 +1154,12 @@
     margin-top: -8%;
     margin-right: 9%;
   }
+  #es-rc-content.es-rc .es-triple {
+    margin-top: -100px;
+  }
+  #es-rc-content.es-rc .es-triple__desc-mobile--first, #es-rc-content.es-rc .es-triple__desc-mobile--second, #es-rc-content.es-rc .es-triple__desc-mobile--third {
+    font-size: 170px;
+  }
 }
 @media screen and (min-width: 1400px) {
   #es-rc-content.es-rc .es-lemonade__title {
@@ -1152,6 +1168,7 @@
   #es-rc-content.es-rc .es-lemonade__subtitle {
     margin-top: -30px;
     font-size: 55px;
+    margin-left: 0;
   }
   #es-rc-content.es-rc .es-lemonade__group-list-item {
     gap: 46px;
